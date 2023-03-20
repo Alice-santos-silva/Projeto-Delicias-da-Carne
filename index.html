@@ -6,14 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style2.css">
     <title>Delícias da Carne</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/mobile.css">
 </head>
 <body>
     <div id="container-principal">
             <header id="cabecalho">
                 <h1>Delícias da Carne</h1>
                 <h3>O melhor restaurante é a nossa casa </h3>
-                <div>
+                <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+                <nav class="esconder">
                     <a href="#destaque">Produtos em Destaque</a>
                     <a href="#quem-somos">Quem Somos</a>
                     <a href="#img01">Iguarias</a>
@@ -21,7 +24,7 @@
                     <a href="#encomendas">Encomendas</a>
                     <a href="#localizacao">Localização</a>
                     <a href="#contato">Contato</a>
-                </div>
+                </nav>
             </header>
 
         <section class="container-cards" id="destaque">  
@@ -146,5 +149,6 @@
         </footer>
         <div id="divChat"><button id="chat"> &#x1F4AC; Vamos conversar por chat</button></div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>

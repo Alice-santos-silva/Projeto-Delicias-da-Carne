@@ -29,14 +29,19 @@ header h1, header h3{
     font-variant: small-caps;
     font-family: 'Merienda', cursive;
 }
-a{
+
+span#burguer{
+    display: none;
+}
+
+nav a{
     background-color: #b36e07/*rgb(109, 45, 6)*/;
     text-decoration: none;
     color: #ffffff;
     border-radius: 3px;
     padding: 3px;
 }
-a:hover{
+ nav a:hover{
     background-color: #c3422891; 
 }
 section{
@@ -95,12 +100,12 @@ section.fundo-imagem01  h2, section.fundo-imagem02 h2{
     font-size: 3em;
 }
 section#img01{
-    background-image: url('imgs/carne-exotica.jpg');
+    background-image: url('../imgs/carne-exotica.jpg');
     background-position: right center;
     background-size: cover;
 }
 section#img02{
-    background-image: url('imgs/frutos-do-mar.jpg');
+    background-image: url('../imgs/frutos-do-mar.jpg');
     background-position: right center;
     background-size: cover;
 }
