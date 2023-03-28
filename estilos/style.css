@@ -203,5 +203,6 @@ input{
     color: white;
     font-weight: bolder;
     font-size: larger;
+    cursor: pointer;
     
 }
